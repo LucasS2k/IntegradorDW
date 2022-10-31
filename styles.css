@@ -29,6 +29,7 @@ main{
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
+    overflow: hidden;
 }
 body{
     background-color: #242424;
@@ -350,10 +351,9 @@ footer a:hover{
         max-width: 992px;
     }
     .hero{
-        width: 100vw;
         display: flex;
-        padding: auto;
-        margin: auto;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-top: 80px;
     }
     .hero img{
@@ -375,8 +375,6 @@ footer a:hover{
         max-width: 576px;
     }
     .hero img{
-        width: auto;
-        height: auto
     }
     
 };
