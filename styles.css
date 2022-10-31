@@ -264,7 +264,7 @@ header{
 .itemfoot{
     display: flex;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 3;
     font-weight: 600;
     padding-right: 1rem;
 }
@@ -343,7 +343,7 @@ footer a:hover{
         max-width: 992px;
     }
     .hero{
-        max-width: 90%;
+        width: 100vw;
         display: flex;
         padding: auto;
         margin: auto;
@@ -359,6 +359,8 @@ footer a:hover{
 @media (max-width:576px){
     body{
         max-width: 576px;
+    }
+    .hero{
     }
     
 };
