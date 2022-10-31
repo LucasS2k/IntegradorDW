@@ -275,6 +275,9 @@ footer{
     height: 2px;
 }
 @media (max-width:992px){
+    body{
+        max-width: 992px;
+    }
     .hero{
         max-width: 90%;
         display: flex;
@@ -290,4 +293,8 @@ footer{
     }
 }
 @media (max-width:576px){
+    body{
+        max-width: 576px;
+    }
+    
 };
