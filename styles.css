@@ -51,7 +51,7 @@ header{
     font-weight: 700;
     padding-left: 1rem;
     padding-right: 1rem;
-    z-index: 3;
+    z-index: 4;
 }
 .header-logo{
     height: 80px;
@@ -124,7 +124,6 @@ header{
     margin-top: 80px;
     height: 500px;
     width: auto;
-    animation: glitch 5s infinite steps(1);
     padding: 1rem;
 }
 .hero h1{
@@ -231,9 +230,11 @@ header{
 .catitem img{
     transition: 0.5s all ease-in-out;
     overflow: hidden;
+    z-index: 2;
 }
 .catitem img:hover{
     transform: scale(1.1);
+    overflow: hidden;
 }
 .valor{
     display: flex;
@@ -244,6 +245,19 @@ header{
     background-color: var(--negro);
     padding: 0.3rem;
     z-index: 2;
+}
+.itemdescription{
+    z-index: 3;
+}
+.itemfoot{
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+    font-weight: 600;
+    padding-right: 1rem;
+}
+.itemfoot a{
+    color: var(--negro);
 }
 .beneficios{
     display: flex;
@@ -259,16 +273,6 @@ header{
     padding: 1rem;
 }
 .benefitem a{
-    color: var(--negro);
-}
-.itemfoot{
-    display: flex;
-    justify-content: space-between;
-    z-index: 3;
-    font-weight: 600;
-    padding-right: 1rem;
-}
-.itemfoot a{
     color: var(--negro);
 }
 .subtitle{
