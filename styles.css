@@ -342,6 +342,9 @@ footer a:hover{
     body{
         max-width: 992px;
     }
+    main{
+        max-width: 992px;
+    }
     .hero{
         width: 100vw;
         display: flex;
@@ -358,6 +361,9 @@ footer a:hover{
 }
 @media (max-width:576px){
     body{
+        max-width: 576px;
+    }
+    main{
         max-width: 576px;
     }
     .hero{
