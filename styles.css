@@ -361,6 +361,8 @@ footer a:hover{
         max-width: 576px;
     }
     .hero{
+        width: 350px;
+        height: auto
     }
     
 };
