@@ -45,7 +45,7 @@ header{
     top:0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 100vw;
     font-weight: 700;
     padding: 6px;
     z-index: 3;
@@ -246,7 +246,6 @@ header{
 .subtitle{
     display: flex;
     color: var(--blanco);
-    margin-left: 12%;
     align-items: center;
 }
 footer{
@@ -256,6 +255,7 @@ footer{
     justify-content: center;
     background-color: var(--gris);
     bottom: 0vh;
+    width: 100vw;
     left: 0;
     right: 0;
     z-index: 3;
