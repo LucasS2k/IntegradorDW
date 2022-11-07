@@ -147,6 +147,7 @@ header{
     max-width: 400px;
     max-height: 400px;
     animation: escala 1s ease-in;
+    background-color: #EBECEE;
 }
 .titulo{
     top: 0;
@@ -173,11 +174,9 @@ header{
  border-style: solid;
  border-color:var(--negro);
   font-weight: 700;
-  box-shadow: -5px 5px 0px 0px var(--amarillo);
   transition: all 0.3s;
 }
 .herolink:hover{
-    box-shadow: none;
     color: var(--amarillo);
 }
 .section_form{
