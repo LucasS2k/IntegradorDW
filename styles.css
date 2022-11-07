@@ -128,7 +128,7 @@ header{
     flex-direction: column;
     margin-top: 80px;
     padding: 0rem;
-    background-color: #EBECEE;
+    background-color:var(--blanco);
     overflow: hidden;
     position: relative;
 }
@@ -147,12 +147,12 @@ header{
     max-width: 400px;
     max-height: 400px;
     animation: escala 1s ease-in;
-    background-color: #EBECEE;
+    background-color:var(--blanco);
 }
 .titulo{
     top: 0;
     color: var(--negro);
-    background-color: #EBECEE;
+    background-color: var(--blanco);
     gap: 20px;
     padding: 0rem;
     width: 100%;
