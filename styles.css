@@ -89,6 +89,9 @@ header{
     gap: 20px;
     font-size: 1rem;
     width: 150px;
+    box-shadow: 10px 9px 10px -6px rgba(0,0,0,0.99);
+-webkit-box-shadow: 10px 9px 10px -6px rgba(0,0,0,0.99);
+-moz-box-shadow: 10px 9px 10px -6px rgba(0,0,0,0.99);
 }
 .menu a{
     transition: all 0.6s;
@@ -165,7 +168,6 @@ header{
 .herolink:hover{
     color: var(--amarillo);
 }
-
 .section_form{
     display: flex;
     justify-content: center;
@@ -391,9 +393,6 @@ footer a:hover{
     border-top: 2px;
     width: 50%;
     height: 2px;
-}
-a:visited{
-    color: inherit;
 }
 @media (max-width:992px){
     body{
