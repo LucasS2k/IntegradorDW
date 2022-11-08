@@ -60,21 +60,6 @@ header{
 .header-logo{
     height: 80px;
 }
-.search{
-    color: var(--negro);
-    border-bottom: 2px solid var(--amarillo);
-    outline: none;
-    border-radius: 1rem;   
-}
-.search:focus{
-    outline: none;
-    border-bottom: var(--amarillo);
-}
-.search_button{
-    color: var(--blanco);
-    background-color:transparent;
-    border:none;
-}
 .header_list_link{
     display: flex;
     justify-content: flex-end;
@@ -174,9 +159,13 @@ header{
     font-weight: 700;
     transition: all 0.3s;
 }
+.herolink:visited{
+    color: var(--blanco);
+}
 .herolink:hover{
     color: var(--amarillo);
 }
+
 .section_form{
     display: flex;
     justify-content: center;
@@ -402,6 +391,9 @@ footer a:hover{
     border-top: 2px;
     width: 50%;
     height: 2px;
+}
+a:visited{
+    color: inherit;
 }
 @media (max-width:992px){
     body{
